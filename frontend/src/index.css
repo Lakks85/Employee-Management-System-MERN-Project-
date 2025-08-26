@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+
+
+body{
+  background: #f1f1f1;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.link {
+  @apply p-2.5 flex rounded-md gap-6 items-center md:cursor-pointer cursor-default duration-300 font-medium
+}
